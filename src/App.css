@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image-center {
+  display: block; /* Makes the image behave like a block element */
+  margin: 0 auto; /* Centers it horizontally */
+  width: 100px;
+  height: auto;
+}
+
+.image-small-height {
+  display: block;  /* Ensures the image respects width rules */
+  height: 600px;   /* Set the height to a fixed value */
+  width: auto;     /* Allow the width to adjust proportionally */
+  max-width: 100%; 
+  margin: 0 auto;  /* Centers the image horizontally */
+  object-fit: contain;   /* Ensures the image fits within its container */
+
+}
+
+/* styles.css */
+.resized-gif {
+  width: 800px;
+  height: auto;
+}

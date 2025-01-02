@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import Othello from "../assets/images/Othello.png";
 import oldportfolio from "../assets/images/oldportfolio.png";
 import moviehome from "../assets/images/moviehome.png";
+import bloghomepage from "../assets/images/bloghomepage.png"
 
 // Add more project imports here as needed
 
 const projects = [
   {
     img: Othello,
-    title: "Othello",
+    title: "Othello Game",
     description:
       "A React-based Othello game that features turn-based gameplay, dynamic piece flipping, and an automated check for valid moves, ending the game when neither player can play.",
     link: "/project1",
@@ -29,11 +30,11 @@ const projects = [
     link: "/project3",
   },
   {
-    img: oldportfolio,
-    title: "Portfolio Project",
+    img: bloghomepage,
+    title: "Blog Site",
     description:
-      "My portfolio transformation from a simple, static HTML portfolio to a dynamic, React-powered showcase, rebuilt from an HTML5 template with added features and interactivity.",
-    link: "/project3",
+      "This simple blog built with Next.js focuses on showcasing basic concepts like static site generation and dynamic routing.",
+    link: "/project4",
 },
 ];
 

@@ -12,6 +12,7 @@ import Section3 from "./components/Section3-projects";
 import Project1 from "./components/Project1";
 import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
+import Project4 from "./components/Project4";
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import { useLocation } from "react-router-dom";
 
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/project1" element={<Project1 />} />
           <Route path="/project2" element={<Project2 />} />
           <Route path="/project3" element={<Project3 />} />
+          <Route path="/project4" element={<Project4 />} />
         </Routes>
       </div>
     </Router>

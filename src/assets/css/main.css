@@ -3593,3 +3593,48 @@ input, select, textarea {
 	/* Styles for xlarge screens */
   }
   
+  /* Section Layout */
+#intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2em;
+  }
+  
+  #intro .container {
+	display: flex;
+	width: 100%;
+  }
+  
+  #intro .row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+  }
+  
+  #intro .col-6 {
+	flex: 1;
+  }
+  
+  #intro .col-6.imp-medium {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Specific Image Styling for This Section */
+  #intro .col-6.imp-medium .image.fit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%; /* Ensures the image container fills the column */
+  }
+  
+  #intro .col-6.imp-medium .image.fit img {
+	max-width: 90%; /* Makes the image larger (adjust percentage as needed) */
+	height: auto;
+	object-fit: contain; /* Keeps aspect ratio */
+	border: 6px solid #eae0d18f; /* Adds a border around the image */
+	border-radius: 8px; /* Rounds corners of the image */
+  }
+  

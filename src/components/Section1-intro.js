@@ -11,24 +11,24 @@ const Section1 = () => {
             <header className="major">
               <h2>
                 Hello, I'm Hannah
-                </h2>
-                <h2>
+              </h2>
+              <h2>
                 This is my portfolio
               </h2>
             </header>
             <p>
-              I’m a front-end developer with a Professional Certificate in Full Stack Development from the MIT xPro program, 
-              where I honed my skills in the MERN stack and discovered a passion for crafting intuitive, visually engaging user 
-              interfaces using modern web technologies. </p>
+             I hold a Professional Certificate in Full Stack Development from the MIT xPro program, where I mastered the 
+             MERN stack and developed a passion for crafting visually engaging web applications. </p>
             <p>
-              I earned a BA in Spanish Language and Literature from UConn, which 
-              sharpened my communication skills and broadened my global perspective. My professional journey spans hospitality, 
-              the travel industry, real estate, and cybersecurity, shaping me into an adaptable problem-solver with a creative 
-              edge. </p>
+             I earned a BA in Spanish Language and Literature from UConn, which sharpened my communication skills and expanded my global perspective.
+             </p><p>
+             With a diverse background in hospitality, real estate, and cybersecurity, I bring creativity, adaptability, and 
+             problem-solving to every project I work on.</p>
             <p>
-            In my free time, I enjoy scuba diving and strategy board games—both offer a chance to think 
-            critically and explore new challenges, whether it's underwater or on the game board. I’m excited to apply my skills 
-            in a new role where I can continue growing as a developer and contribute to my team’s success.
+            Outside of work, I enjoy scuba diving and strategy board games, both of which offer a chance to think 
+            critically and explore new challenges, whether it's underwater or on the game board. 
+            </p><p>
+              I’m excited to apply my skills in a new role where I can continue to grow professionally and contribute to my team’s success.
             </p>
           </div>
           <div className="col-6 col-12-medium imp-medium">

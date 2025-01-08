@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .iconsColumn {
+    width: 45%; /* Adjust the width to leave space for the text column */
+  }
+  
+  .textColumn {
+    width: 45%;
+  }
+  
+  .majorIcons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 30px; /* space between icons */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-items: center; /* centers the icons */
+  }
+  
+  .icon {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+    color: #868efe; /* Change color on hover */
+  }
+  
+  .tooltip {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .skills-list h3 {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .skills-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skills-list li {
+    color: white;
+  }
+  

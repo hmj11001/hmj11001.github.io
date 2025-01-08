@@ -1,58 +1,48 @@
 import React from "react";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs, FaReact, FaDocker, FaAws } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiFirebase, SiJest, SiPostman, SiGraphql, SiNextdotjs, SiTailwindcss, SiPostgresql } from 'react-icons/si';
+import styles from './Section2.module.css';  // Import the CSS Module
 
 const Section2 = () => {
   return (
     <section id="skills" className="main style2">
       <div className="container">
         <div className="row gtr-150">
-          {/* Icons Column, add icons for frameworks i used, add hover feature so you can see each one when you hover*/}
+          {/* Icons Column */}
           <div className="col-6 col-12-medium">
-            <ul className="major-icons">
-              <li>
-                <span className="icon solid style1 major fa-code"></span>
-              </li>
-              <li>
-                <span className="icon solid style2 major fa-bolt"></span>
-              </li>
-              <li>
-                <span className="icon solid style3 major fa-camera-retro"></span>
-              </li>
-              <li>
-                <span className="icon solid style4 major fa-cog"></span>
-              </li>
-              <li>
-                <span className="icon solid style5 major fa-desktop"></span>
-              </li>
-              <li>
-                <span className="icon solid style6 major fa-calendar"></span>
-              </li>
+            <ul className={styles.majorIcons}>
+              <li><FaReact size={50} title="React" className={styles.icon} /><span className={styles.tooltip}>React</span></li>
+              <li><FaJsSquare size={50} title="JavaScript" className={styles.icon} /><span className={styles.tooltip}>JavaScript</span></li>
+              <li><FaNodeJs size={50} title="Node.js" className={styles.icon} /><span className={styles.tooltip}>Node.js</span></li>
+              <li><SiExpress size={50} title="Express.js" className={styles.icon} /><span className={styles.tooltip}>Express.js</span></li>
+              <li><FaHtml5 size={50} title="HTML5" className={styles.icon} /><span className={styles.tooltip}>HTML5</span></li>
+              <li><FaCss3Alt size={50} title="CSS3" className={styles.icon} /><span className={styles.tooltip}>CSS3</span></li>
+              <li><FaDocker size={50} title="Docker" className={styles.icon} /><span className={styles.tooltip}>Docker</span></li>
+              <li><FaAws size={50} title="AWS" className={styles.icon} /><span className={styles.tooltip}>AWS</span></li>
+              <li><SiNextdotjs size={50} title="Next.js" className={styles.icon} /><span className={styles.tooltip}>Next.js</span></li>
             </ul>
           </div>
 
           {/* Text Content Column */}
           <div className="col-6 col-12-medium">
             <header className="major">
-              <h2>
-                These are the skills i acquired
-              </h2>
+              <h2>Skills I Have Acquired</h2>
             </header>
-            <p>
-              Talk about the frameworks I used and how they are helpful
+
+            <p><strong>Frontend Development:</strong>  
+              My primary focus has been on building dynamic, responsive web applications using <strong>React</strong> and <strong>JavaScript (ES6+)</strong>. I am proficient in <strong>HTML5</strong> and <strong>CSS3</strong>, allowing me to structure and style websites effectively. With React, I can build fast, interactive user interfaces, and I use <strong>Tailwind CSS</strong> for utility-first design.
             </p>
-            <p>
-              describe proficiency in each one that is important
+
+            <p><strong>Backend Development:</strong>  
+              On the server-side, I am highly skilled in <strong>Node.js</strong> for building scalable and high-performance applications. I use <strong>Express.js</strong> for routing and managing APIs, and I'm comfortable with <strong>MongoDB</strong> for NoSQL data storage and <strong>PostgreSQL</strong> for relational data management.
             </p>
-            <p>
-              things i like the most or want to work on or learn
-              <p>
-                front end: html css javascript es6
-                <br /> 
-                back end: node.js, express mongoDB, firebase, next.javascript
-                <br />
-                version control: github, testing: jest, deployment: docker, aws, firebase, additional tools: postman, graphql
-              </p>
+
+            <p><strong>Deployment & Cloud:</strong>  
+              I have experience containerizing applications with <strong>Docker</strong>, making them portable and easy to deploy in various environments. Additionally, I have deployed apps on <strong>AWS</strong> and use <strong>GitHub</strong> for version control, enabling collaboration and smooth deployment processes.
+            </p>
+
+            <p><strong>Testing & APIs:</strong>  
+              I am proficient in testing with <strong>Jest</strong> and API development using tools like <strong>Postman</strong> for testing and debugging. I also use <strong>GraphQL</strong> for efficient data fetching, ensuring that applications are optimized and scalable.
             </p>
           </div>
         </div>

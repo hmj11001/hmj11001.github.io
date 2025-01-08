@@ -10,10 +10,10 @@ const Section1 = () => {
           <div className="col-6 col-12-medium">
             <header className="major">
               <h2>
-                Hello, I'm Hannah
+                Nice to meet you!
               </h2>
               <h2>
-                This is my portfolio
+                Welcome to my portfolio
               </h2>
             </header>
             <p>

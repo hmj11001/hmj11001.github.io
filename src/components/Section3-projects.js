@@ -5,7 +5,7 @@ import oldportfolio from "../assets/images/oldportfolio.png";
 import moviehome from "../assets/images/moviehome.png";
 import bloghomepage from "../assets/images/bloghomepage.png"
 
-// Add more project imports here as needed
+// Add more project as needed
 
 const projects = [
   {
@@ -58,9 +58,9 @@ const Section3 = () => {
     <section id="projects" className="main style1 special">
       <div className="container">
         <header className="major">
-          <h2>Recent Projects</h2>
+          <h2>Recent Work</h2>
         </header>
-        <p>Take a look at what I've been working on</p>
+        <h4>Discover the projects I've been building</h4>
 
         {/* Project Container for Carousel */}
         <div className="projects-container">

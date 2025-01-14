@@ -1,3 +1,14 @@
+## Important Note About Browser Extensions
+
+If you encounter any issues when viewing the live app, such as missing fonts or unexpected errors, it may be caused by browser extensions interfering with the app.
+
+### Suggested Steps:
+1. **Disable Extensions:** Temporarily disable browser extensions (e.g., ad blockers, content injectors) and refresh the page.
+2. **Try Incognito Mode:** Open the app in an incognito or private browsing window, where extensions are typically disabled by default.
+
+Live App URL: https://hmj11001.github.io
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

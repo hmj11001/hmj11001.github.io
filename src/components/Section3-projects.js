@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 import Othello from "../assets/images/Othello.png";
 import oldportfolio from "../assets/images/oldportfolio.png";
 import moviehome from "../assets/images/moviehome.png";
-import bloghomepage from "../assets/images/bloghomepage.png"
-
-// Add more project as needed
+import bloghomepage from "../assets/images/bloghomepage.png";
+import styles from "./Section3.module.css"; // Assuming this CSS file is imported here
 
 const projects = [
   {
@@ -35,23 +34,27 @@ const projects = [
     description:
       "This simple blog built with Next.js focuses on showcasing basic concepts like static site generation and dynamic routing.",
     link: "/project4",
-},
+  },
 ];
 
 const Section3 = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerPage = 3;
 
+  // Function to go to the next set of 3 projects (cycling through the list)
   const goToNext = () => {
-    if (currentIndex + itemsPerPage < projects.length) {
-      setCurrentIndex(currentIndex + itemsPerPage);
-    }
+    setCurrentIndex((prevIndex) => {
+      const nextIndex = (prevIndex + itemsPerPage) % projects.length;  // Using modulo for cycling
+      return nextIndex;
+    });
   };
 
+  // Function to go to the previous set of 3 projects (cycling backwards)
   const goToPrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - itemsPerPage);
-    }
+    setCurrentIndex((prevIndex) => {
+      const prevIndexMod = (prevIndex - itemsPerPage + projects.length) % projects.length; // Modulo to wrap around
+      return prevIndexMod;
+    });
   };
 
   return (
@@ -64,26 +67,33 @@ const Section3 = () => {
 
         {/* Project Container for Carousel */}
         <div className="projects-container">
-          {projects.slice(currentIndex, currentIndex + itemsPerPage).map((project, index) => (
-            <div key={index} className="project-card">
-              <span className="image fit">
-                <img src={project.img} alt={project.title} />
-              </span>
-              <h3>{project.title}</h3>
-              <p className="description">{project.description}</p>
-              <ul className="actions special">
-                <li>
-                  <Link to={project.link} className="button">More</Link>
-                </li>
-              </ul>
-            </div>
-          ))}
+          {projects
+            .slice(currentIndex, currentIndex + itemsPerPage)
+            .concat(projects.slice(0, Math.max(0, currentIndex + itemsPerPage - projects.length))) // Handle wrapping
+            .map((project, index) => (
+              <div key={index} className="project-card">
+                <span className="image fit">
+                  <img src={project.img} alt={project.title} />
+                </span>
+                <h3>{project.title}</h3>
+                <p className="description">{project.description}</p>
+                <div className="more-button-container">
+                  <Link to={project.link} className="button">
+                    More
+                  </Link>
+                </div>
+              </div>
+            ))}
         </div>
 
-        {/* Navigation Arrows */}
-        <div className="carousel-arrows">
-          <button className="prev" onClick={goToPrev}>←</button>
-          <button className="next" onClick={goToNext}>→</button>
+        {/* Arrow Navigation */}
+        <div className="carousel-container">
+          <button className="carousel-arrow prev" onClick={goToPrev}>
+            <i className="fas fa-chevron-left"></i>
+          </button>
+          <button className="carousel-arrow next" onClick={goToNext}>
+            <i className="fas fa-chevron-right"></i>
+          </button>
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs, FaReact, FaDocker, FaAws } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiFirebase, SiJest, SiPostman, SiGraphql, SiNextdotjs, SiTailwindcss, SiPostgresql } from 'react-icons/si';
-import styles from './Section2.module.css';  // Import the CSS Module
+import styles from './Section2.module.css'; // Import the CSS Module
 
 const Section2 = () => {
   return (
@@ -29,22 +29,17 @@ const Section2 = () => {
               <h2>Technical Skillset</h2>
             </header>
 
-            <h4><strong>Frontend Development</strong></h4>  
-              <p>My primary focus has been on building dynamic, responsive web applications using <strong>React</strong> and <strong>JavaScript (ES6+)</strong>. I am proficient in <strong>HTML5</strong> and <strong>CSS3</strong>, allowing me to structure and style websites effectively. With React, I can build fast, interactive user interfaces, and I use <strong>Tailwind CSS</strong> for utility-first design.
-            </p>
+            <h4><strong>Frontend Development</strong></h4>
+            <p>I build dynamic, responsive web apps with <strong>React</strong>, <strong>JavaScript (ES6+)</strong>, and <strong>HTML5</strong>. I use <strong>CSS3</strong> and <strong>Tailwind CSS</strong> to create clean, interactive designs.</p>
 
             <h4><strong>Backend Development</strong></h4>
-            <p>  
-              On the server-side, I am highly skilled in <strong>Node.js</strong> for building scalable and high-performance applications. I use <strong>Express.js</strong> for routing and managing APIs, and I'm comfortable with <strong>MongoDB</strong> for NoSQL data storage and <strong>PostgreSQL</strong> for relational data management.
-            </p>
+            <p>I'm skilled in <strong>Node.js</strong> for scalable applications and use <strong>Express.js</strong> for routing. I work with <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, and <strong>Firebase</strong> for data management.</p>
 
-            <h4><strong>Deployment & Cloud</strong></h4> 
-              <p>I have experience containerizing applications with <strong>Docker</strong>, making them portable and easy to deploy in various environments. Additionally, I have deployed apps on <strong>AWS</strong> and use <strong>GitHub</strong> for version control, enabling collaboration and smooth deployment processes.
-            </p>
+            <h4><strong>Deployment & Cloud</strong></h4>
+            <p>I containerize apps with <strong>Docker</strong> and deploy on <strong>AWS</strong>, ensuring seamless cloud integration. I use <strong>GitHub</strong> for version control and deployment automation.</p>
 
-            <h4><strong>Testing & APIs</strong> </h4>
-              <p>I am proficient in testing with <strong>Jest</strong> and API development using tools like <strong>Postman</strong> for testing and debugging. I also use <strong>GraphQL</strong> for efficient data fetching, ensuring that applications are optimized and scalable.
-            </p>
+            <h4><strong>Testing & APIs</strong></h4>
+            <p>I'm proficient in <strong>Jest</strong> for testing and use tools like <strong>Postman</strong> for API development. I also implement <strong>GraphQL</strong> for optimized data fetching.</p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Othello from "../assets/images/Othello.png";
 import oldportfolio from "../assets/images/oldportfolio.png";
 import moviehome from "../assets/images/moviehome.png";
 import bloghomepage from "../assets/images/bloghomepage.png";
-import styles from "./Section3.module.css"; 
+import "./Section3.module.css"; 
 import "./ProjectCard.css"; // Add this line
 
 

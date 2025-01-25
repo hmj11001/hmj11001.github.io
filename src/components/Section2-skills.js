@@ -1,6 +1,6 @@
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs, FaReact, FaDocker, FaAws } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiFirebase, SiJest, SiPostman, SiGraphql, SiNextdotjs, SiTailwindcss, SiPostgresql } from 'react-icons/si';
+import { SiExpress, SiNextdotjs } from 'react-icons/si';
 import styles from './Section2.module.css'; // Import the CSS Module
 
 const Section2 = () => {

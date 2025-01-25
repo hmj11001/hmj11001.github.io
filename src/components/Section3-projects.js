@@ -4,7 +4,9 @@ import Othello from "../assets/images/Othello.png";
 import oldportfolio from "../assets/images/oldportfolio.png";
 import moviehome from "../assets/images/moviehome.png";
 import bloghomepage from "../assets/images/bloghomepage.png";
-import styles from "./Section3.module.css"; // Assuming this CSS file is imported here
+import styles from "./Section3.module.css"; 
+import "./ProjectCard.css"; // Add this line
+
 
 const projects = [
   {
@@ -85,7 +87,7 @@ const Section3 = () => {
               </div>
             ))}
         </div>
-
+          <br/>
         {/* Arrow Navigation */}
         <div className="carousel-container">
           <button className="carousel-arrow prev" onClick={goToPrev}>

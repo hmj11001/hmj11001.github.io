@@ -1,0 +1,88 @@
+/* Base Styles for the Project Card */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    min-height: 350px; 
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Hover effect */
+  }
+  
+  /* Image Styling */
+  .project-card img {
+    max-width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border: 2px solid #ddd; /* Adding a border around the image */
+    margin-bottom: 1rem;
+    margin-top: 1rem; 
+  }
+  
+  /* Title Styling */
+  .project-card h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Description Styling */
+  .project-card .description {
+    flex-grow: 1; /* Ensures consistent spacing */
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  /* Button Styling - Reverting to original style */
+  .more-button-container .button {
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    color: #333; /* Dark text color */
+    background-color: transparent; /* Transparent background */
+    border: 1px solid #ddd; /* Original border color (light gray) */
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex; /* Ensures button content is centered */
+    justify-content: center;
+    align-items: center;
+    transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+  }
+  
+ /* "More" Button Hover Effect */
+.more-button-container .button:hover {
+    background-color: #f0f0f0; /* Very subtle light gray background */
+    color: #333; /* Slightly darker text color */
+    border-color: #ddd; /* Slightly darker border to match background */
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-card {
+      padding: 0.5rem;
+    }
+  
+    .project-card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .more-button-container .button {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+  

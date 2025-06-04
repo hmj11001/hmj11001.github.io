@@ -5,16 +5,17 @@ import oldportfolio from "../assets/images/oldportfolio.png";
 import moviehome from "../assets/images/moviehome.png";
 import bloghomepage from "../assets/images/bloghomepage.png";
 import "./Section3.module.css"; 
-import "./ProjectCard.css"; // Add this line
+import "./ProjectCard.css"; 
+import airoomredesign from "../assets/images/airoomredesign.png";
 
 
 const projects = [
   {
-    img: Othello,
-    title: "Othello Game",
+    img: airoomredesign,
+    title: "AI Interior Design App",
     description:
-      "A React-based Othello game that features turn-based gameplay, dynamic piece flipping, and an automated check for valid moves, ending the game when neither player can play.",
-    link: "/project1",
+      "A Next.js and Firebase-powered app that uses AI to generate before-and-after interiors based on user-selected design styles, complete with image uploads, credit-based generation, and PayPal integration.",
+    link: "/project5",
   },
   {
     img: moviehome,
@@ -29,6 +30,13 @@ const projects = [
     description:
       "My portfolio transformation from a simple, static HTML portfolio to a dynamic, React-powered showcase, rebuilt from an HTML5 template with added features and interactivity.",
     link: "/project3",
+  },
+  {
+    img: Othello,
+    title: "Othello Game",
+    description:
+      "A React-based Othello game that features turn-based gameplay, dynamic piece flipping, and an automated check for valid moves, ending the game when neither player can play.",
+    link: "/project1",
   },
   {
     img: bloghomepage,

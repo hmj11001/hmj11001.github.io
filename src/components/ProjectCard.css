@@ -11,6 +11,7 @@
     background-color: #fff;
     min-height: 350px; 
     transition: transform 0.3s, box-shadow 0.3s;
+    fill:aquamarine
   }
   
   .project-card:hover {
@@ -46,7 +47,7 @@
     color: #555;
   }
   
-  /* Button Styling - Reverting to original style */
+  /* Button Styling  */
   .more-button-container .button {
     padding: 0.4rem 1rem;
     font-size: 1rem;

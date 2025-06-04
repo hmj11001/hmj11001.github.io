@@ -11,35 +11,37 @@ const Section2 = () => {
           {/* Icons Column */}
           <div className="col-6 col-12-medium">
             <ul className={styles.majorIcons}>
-              <li><FaReact size={90} title="React" className={styles.icon} /><span className={styles.tooltip}>React</span></li>
-              <li><FaJsSquare size={90} title="JavaScript" className={styles.icon} /><span className={styles.tooltip}>JavaScript</span></li>
-              <li><FaNodeJs size={90} title="Node.js" className={styles.icon} /><span className={styles.tooltip}>Node.js</span></li>
-              <li><SiExpress size={90} title="Express.js" className={styles.icon} /><span className={styles.tooltip}>Express.js</span></li>
-              <li><FaHtml5 size={90} title="HTML5" className={styles.icon} /><span className={styles.tooltip}>HTML5</span></li>
-              <li><FaCss3Alt size={90} title="CSS3" className={styles.icon} /><span className={styles.tooltip}>CSS3</span></li>
-              <li><FaDocker size={90} title="Docker" className={styles.icon} /><span className={styles.tooltip}>Docker</span></li>
-              <li><FaAws size={90} title="AWS" className={styles.icon} /><span className={styles.tooltip}>AWS</span></li>
-              <li><SiNextdotjs size={90} title="Next.js" className={styles.icon} /><span className={styles.tooltip}>Next.js</span></li>
+              <li><FaReact size={60} title="React" className={styles.icon} /><span className={styles.tooltip}>React</span></li>
+              <li><FaJsSquare size={60} title="JavaScript" className={styles.icon} /><span className={styles.tooltip}>JavaScript</span></li>
+              <li><FaNodeJs size={60} title="Node.js" className={styles.icon} /><span className={styles.tooltip}>Node.js</span></li>
+              <li><SiExpress size={60} title="Express.js" className={styles.icon} /><span className={styles.tooltip}>Express.js</span></li>
+              <li><FaHtml5 size={60} title="HTML5" className={styles.icon} /><span className={styles.tooltip}>HTML5</span></li>
+              <li><FaCss3Alt size={60} title="CSS3" className={styles.icon} /><span className={styles.tooltip}>CSS3</span></li>
+              <li><FaAws size={60} title="AWS" className={styles.icon} /><span className={styles.tooltip}>AWS</span></li>
+              <li><SiNextdotjs size={60} title="Next.js" className={styles.icon} /><span className={styles.tooltip}>Next.js</span></li>
             </ul>
           </div>
 
           {/* Text Content Column */}
           <div className="col-6 col-12-medium">
             <header className="major">
-              <h2>Technical Skillset</h2>
+              <h2><strong>Technical Skillset</strong></h2>
             </header>
 
-            <h4><strong>Frontend Development</strong></h4>
-            <p>I build dynamic, responsive web apps with <strong>React</strong>, <strong>JavaScript (ES6+)</strong>, and <strong>HTML5</strong>. I use <strong>CSS3</strong> and <strong>Tailwind CSS</strong> to create clean, interactive designs.</p>
+            <h4><strong>Frontend</strong></h4>
+            <p>React, Next.js, JSX, Tailwind CSS, shadcn/ui</p>
 
-            <h4><strong>Backend Development</strong></h4>
-            <p>I'm skilled in <strong>Node.js</strong> for scalable applications and use <strong>Express.js</strong> for routing. I work with <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, and <strong>Firebase</strong> for data management.</p>
+            <h4><strong>Backend</strong></h4>
+            <p>Node.js, Express, REST APIs, Drizzle ORM, Next.js API routes</p>
 
-            <h4><strong>Deployment & Cloud</strong></h4>
-            <p>I containerize apps with <strong>Docker</strong> and deploy on <strong>AWS</strong>, ensuring seamless cloud integration. I use <strong>GitHub</strong> for version control and deployment automation.</p>
+            <h4><strong>Databases</strong></h4>
+            <p>Firebase, MongoDB, PostgreSQL (Neon)</p>
 
-            <h4><strong>Testing & APIs</strong></h4>
-            <p>I'm proficient in <strong>Jest</strong> for testing and use tools like <strong>Postman</strong> for API development. I also implement <strong>GraphQL</strong> for optimized data fetching.</p>
+            <h4><strong>Auth & Payment</strong></h4>
+            <p>Clerk (social/email auth), PayPal integration, credit systems</p>
+
+            <h4><strong>DevOps & Tools</strong></h4>
+            <p>Docker, AWS, Vercel, GitHub, Postman</p>
           </div>
         </div>
       </div>

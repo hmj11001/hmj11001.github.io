@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c0146cc.css",
-    "main.js": "/static/js/main.34d06e52.js",
+    "main.css": "/static/css/main.721da57d.css",
+    "main.js": "/static/js/main.8cad7ca8.js",
     "static/js/453.c50fbfe3.chunk.js": "/static/js/453.c50fbfe3.chunk.js",
+    "static/media/airoomredesign.gif": "/static/media/airoomredesign.bf474e18f6c6cd4b7c82.gif",
     "static/media/moviegif.gif": "/static/media/moviegif.a0bf85abc68de5acffba.gif",
     "static/media/gameplay.gif": "/static/media/gameplay.0b099c88f6627ae415b9.gif",
+    "static/media/airoomredesign.png": "/static/media/airoomredesign.ba359115549f49a41587.png",
     "static/media/oldportfolio.png": "/static/media/oldportfolio.dbaecf5b1c9d5ad8076a.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -32,12 +34,12 @@
     "static/media/overlay3.svg": "/static/media/overlay3.fa9b754d922a91804641.svg",
     "static/media/overlay4.svg": "/static/media/overlay4.c2ffd6035b087b3f2d99.svg",
     "index.html": "/index.html",
-    "main.8c0146cc.css.map": "/static/css/main.8c0146cc.css.map",
-    "main.34d06e52.js.map": "/static/js/main.34d06e52.js.map",
+    "main.721da57d.css.map": "/static/css/main.721da57d.css.map",
+    "main.8cad7ca8.js.map": "/static/js/main.8cad7ca8.js.map",
     "453.c50fbfe3.chunk.js.map": "/static/js/453.c50fbfe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c0146cc.css",
-    "static/js/main.34d06e52.js"
+    "static/css/main.721da57d.css",
+    "static/js/main.8cad7ca8.js"
   ]
 }
